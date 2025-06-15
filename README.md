@@ -6,6 +6,8 @@
 
 ---
 
+![Image](https://github.com/user-attachments/assets/0c21c025-c76c-4dca-abfe-ea97575f4510)
+
 ## Project Overview
 
 This repository contains a **Terraform** configuration to deploy an **AWS Lambda** function designed for **cost optimization** by automatically identifying and deleting **stale EBS (Elastic Block Store) snapshots**. Stale snapshots are those no longer associated with active EC2 instances or existing volumes.
