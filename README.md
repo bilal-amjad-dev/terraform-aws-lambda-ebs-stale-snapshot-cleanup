@@ -49,3 +49,11 @@ Before you begin, ensure you have the following installed and configured:
 ## Project Structure
 
 The repository has a simple, logical structure:
+```bash
+terraform-aws-lambda-ebs-stale-snapshot-cleanup/
+├── main.tf                 # The main Terraform configuration file
+└── python/
+└── lambda_function.py  # The Python code for the Lambda function
+```
+
+
