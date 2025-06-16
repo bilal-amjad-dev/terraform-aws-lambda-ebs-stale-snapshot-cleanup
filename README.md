@@ -8,35 +8,7 @@
 
 ![Image](https://github.com/user-attachments/assets/0c21c025-c76c-4dca-abfe-ea97575f4510)
 
-## Project Overview
 
-This repository contains a **Terraform** configuration to deploy an **AWS Lambda** function designed for **cost optimization** by automatically identifying and deleting **stale EBS (Elastic Block Store) snapshots**. Stale snapshots are those no longer associated with active EC2 instances or existing volumes.
-
-This project is ideal for understanding how to deploy serverless functions with Infrastructure as Code (IaC) and perform meaningful automated operations in your AWS account.
-
----
-
-## Architecture
-
-This solution leverages the following AWS services:
-
-* **AWS Lambda:** Executes the Python code responsible for scanning and deleting stale snapshots.
-* **AWS IAM (Identity and Access Management):** Provides the necessary permissions for the Lambda function to interact with EC2 (to describe/delete snapshots, volumes, instances) and CloudWatch Logs (for logging function activity).
-* **Terraform:** Defines, provisions, and manages all the AWS resources in a declarative and repeatable manner.
-
-In this simplified lab version, the Lambda function is invoked manually for testing. For continuous automation, an EventBridge (CloudWatch Events) schedule would typically be integrated.
-
----
-
-## Features
-
-* **Automated Stale Snapshot Detection:** Scans for EBS snapshots that meet "stale" criteria.
-* **Automated Deletion:** Deletes identified stale snapshots to save storage costs.
-* **Serverless:** Runs without managing any servers, scaling automatically as needed.
-* **Infrastructure as Code:** Deploys all resources using Terraform for consistent and repeatable setups.
-* **Clear Logging:** Integrates with CloudWatch Logs to provide visibility into function execution and deletions.
-
----
 
 ## Prerequisites
 
