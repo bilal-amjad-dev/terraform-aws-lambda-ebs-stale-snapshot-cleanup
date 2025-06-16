@@ -44,7 +44,7 @@ Before you begin, ensure you have the following installed and configured:
 
 * **AWS Account:** An active AWS account with programmatic access.
 * **Terraform:** [Install Terraform](https://www.terraform.io/downloads.html) (version 1.0+ recommended).
-* **AWS CLI (Optional but Recommended):** Configure your AWS credentials using the AWS CLI (`aws configure`) or ensure you can set them via environment variables.
+* **Code Editor:** VS Code (Recommednded) 
 
 ---
 
