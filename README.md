@@ -18,7 +18,6 @@ Before you begin, ensure you have the following installed and configured:
 * **Terraform:** [Install Terraform](https://www.terraform.io/downloads.html) (version 1.0+ recommended).
 * **Code Editor:** VS Code (Recommednded) 
 
----
 
 ## Project Structure
 
