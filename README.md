@@ -57,5 +57,9 @@ terraform-aws-lambda-ebs-stale-snapshot-cleanup/
 └── python/
 └── lambda_function.py  # The Python code for the Lambda function
 ```
-
+```bash
+terraform init
+terraform plan
+terraform apply
+```
 
